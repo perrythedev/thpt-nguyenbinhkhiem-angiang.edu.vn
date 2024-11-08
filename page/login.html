@@ -23,7 +23,7 @@
   
   
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="thpt-nguyenbinhkhiem-angiang.edu.vn">
+<meta property="og:site_name" content="itnbk.edu.pl">
 <meta property="og:title" content="Đăng nhập">
 <meta property="og:description" content="">
   
@@ -203,7 +203,7 @@ $('#form1 [name="fields[username]"]').change(function(){ localStorage.setItem('u
 $('#viewPass1').mouseleave(function(){ $('#form1 [name="fields[password]"]').attr('type', 'password'); $(this) });
 $('#viewPass1').mousedown(function(){ $('#form1 [name="fields[password]"]').attr('type', 'text'); });
 $('body').addClass('page-login page-login-home'); VHV.using ($.extend(
-$.parseJSON(decode64('eyJsYXlvdXQiOiJNZW1iZXIubG9naW4iLCJwYXRoIjoiTWVtYmVyIn0=')),{"module":"Member.Login","page":"login","id":"1","modulePosition":"0","moduleParentId":"-1"}),{ clearForm: false, redirectURL: "http:\/\/thpt-nguyenbinhkhiem-angiang.edu.vn\/page\/login", rules: { 'fields[username]': { required:true },
+$.parseJSON(decode64('eyJsYXlvdXQiOiJNZW1iZXIubG9naW4iLCJwYXRoIjoiTWVtYmVyIn0=')),{"module":"Member.Login","page":"login","id":"1","modulePosition":"0","moduleParentId":"-1"}),{ clearForm: false, redirectURL: "http:\/\/itnbk.edu.pl\/page\/login", rules: { 'fields[username]': { required:true },
 'fields[password]': { required:true }
 },
 messages:{ 'fields[username]': { required: "Bạn chưa nhập tên đăng nhập hoặc email" },
@@ -231,7 +231,7 @@ VHV.alert("Tài khoản của bạn đã khóa. Vui lòng đăng nhập lại sa
 VHV.alert("Tài khoản hoặc mật khẩu không đúng. Vui lòng thử lại!",{ type: 'error', delay: 3000 });
 setTimeout(function(){ VHV.App.modules[1].reload(); },1000);
 } else if (response.status == '503'){
-location = 'http://thpt-nguyenbinhkhiem-angiang.edu.vn/page/serviceBusy'; } else if (response.message){
+location = 'http://itnbk.edu.pl/page/serviceBusy'; } else if (response.message){
 VHV.alert(response.message,{ type: 'error', delay: 3000 });
 } else {
 VHV.alert("Có lỗi xảy ra. Vui lòng thử lại",{ type: 'error', delay: 3000 });
