@@ -11,7 +11,7 @@ File Name: C:\Downloaded Web Sites\thpt-nguyenbinhkhiem-angiang.edu.vn\js\sdkloa
 Content Type: text/javascript
 
 Uri: http://thpt-nguyenbinhkhiem-angiang.edu.vn/
-File Name: C:\Downloaded Web Sites\thpt-nguyenbinhkhiem-angiang.edu.vn\index.htm
+File Name: C:\Downloaded Web Sites\thpt-nguyenbinhkhiem-angiang.edu.vn\index.html
 Content Type: text/html
 
 Uri: http://thpt-nguyenbinhkhiem-angiang.edu.vn/3rdparty/bootstrap-sass/3.4.1/assets/fonts/bootstrap/glyphicons-halflings-regular.eot
